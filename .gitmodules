@@ -6,3 +6,7 @@
 	path = spec-writer
 	url = git@github.com:dsl400/spec-writer.git
 	branch = main
+[submodule "write-md"]
+	path = write-md
+	url = git@github.com:dsl400/write-md.git
+	branch = main

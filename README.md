@@ -8,6 +8,7 @@ submodule follows the `main` branch of its repository (`branch = main` in
 |---|---|
 | [lnl](https://github.com/dsl400/lnl) | `lnl/skills/lnl` |
 | [spec-writer](https://github.com/dsl400/spec-writer) | `spec-writer/skills/spec-writer` |
+| [write-md](https://github.com/dsl400/write-md) | `write-md/skills/write-md` |
 
 ## Clone
 
@@ -20,5 +21,5 @@ git -C skills submodule foreach git checkout main
 
 ```sh
 git submodule update --remote --merge
-git add lnl spec-writer && git commit -m "Update the submodules"
+git add lnl spec-writer write-md && git commit -m "Update the submodules"
 ```
