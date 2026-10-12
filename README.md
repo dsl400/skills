@@ -1,22 +1,24 @@
 # skills
 
 The skills of dsl400, one git submodule for each skill repository. Each
-submodule points at a release tag.
+submodule follows the `main` branch of its repository (`branch = main` in
+`.gitmodules`).
 
-| Submodule | Skill folder | Release |
-|---|---|---|
-| [lnl](https://github.com/dsl400/lnl) | `lnl/skills/lnl` | v0.3.0 |
-| [spec-writer](https://github.com/dsl400/spec-writer) | `spec-writer/skills/spec-writer` | v0.1.0 |
+| Submodule | Skill folder |
+|---|---|
+| [lnl](https://github.com/dsl400/lnl) | `lnl/skills/lnl` |
+| [spec-writer](https://github.com/dsl400/spec-writer) | `spec-writer/skills/spec-writer` |
 
 ## Clone
 
 ```sh
 git clone --recurse-submodules git@github.com:dsl400/skills.git
+git -C skills submodule foreach git checkout main
 ```
 
-## Move a submodule to a new release
+## Bring the submodules to the head of main
 
 ```sh
-git -C <submodule> fetch --tags && git -C <submodule> checkout <tag>
-git add <submodule> && git commit -m "<submodule> <tag>"
+git submodule update --remote --merge
+git add lnl spec-writer && git commit -m "Update the submodules"
 ```
