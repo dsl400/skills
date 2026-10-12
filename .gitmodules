@@ -1,0 +1,6 @@
+[submodule "lnl"]
+	path = lnl
+	url = git@github.com:dsl400/lnl.git
+[submodule "spec-writer"]
+	path = spec-writer
+	url = git@github.com:dsl400/spec-writer.git
