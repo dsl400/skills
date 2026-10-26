@@ -10,3 +10,7 @@
 	path = write-md
 	url = git@github.com:dsl400/write-md.git
 	branch = main
+[submodule "brand"]
+	path = brand
+	url = git@github.com:dsl400/brand.git
+	branch = main
