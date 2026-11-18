@@ -8,6 +8,7 @@ submodule follows the `main` branch of its repository (`branch = main` in
 |---|---|
 | [brand](https://github.com/dsl400/brand) | `brand/skills/brand-builder`, `brand/skills/brand-check` |
 | [lnl](https://github.com/dsl400/lnl) | `lnl/skills/lnl` |
+| [recall](https://github.com/dsl400/recall-skill) | `recall/skills/recall` |
 | [spec-writer](https://github.com/dsl400/spec-writer) | `spec-writer/skills/spec-writer` |
 | [write-md](https://github.com/dsl400/write-md) | `write-md/skills/write-md` |
 
@@ -22,5 +23,5 @@ git -C skills submodule foreach git checkout main
 
 ```sh
 git submodule update --remote --merge
-git add brand lnl spec-writer write-md && git commit -m "Update the submodules"
+git add brand lnl recall spec-writer write-md && git commit -m "Update the submodules"
 ```

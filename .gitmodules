@@ -14,3 +14,7 @@
 	path = brand
 	url = git@github.com:dsl400/brand.git
 	branch = main
+[submodule "recall"]
+	path = recall
+	url = https://github.com/dsl400/recall-skill.git
+	branch = main
