@@ -11,6 +11,7 @@ submodule follows the `main` branch of its repository (`branch = main` in
 | [recall](https://github.com/dsl400/recall-skill) | `recall/skills/recall` |
 | [spec-writer](https://github.com/dsl400/spec-writer) | `spec-writer/skills/spec-writer` |
 | [write-md](https://github.com/dsl400/write-md) | `write-md/skills/write-md` |
+| [youtube](https://github.com/dsl400/skill-youtube) | `youtube/skills/youtube` |
 
 ## Clone
 
@@ -23,5 +24,5 @@ git -C skills submodule foreach git checkout main
 
 ```sh
 git submodule update --remote --merge
-git add brand lnl recall spec-writer write-md && git commit -m "Update the submodules"
+git add brand lnl recall spec-writer write-md youtube && git commit -m "Update the submodules"
 ```

@@ -18,3 +18,7 @@
 	path = recall
 	url = https://github.com/dsl400/recall-skill.git
 	branch = main
+[submodule "youtube"]
+	path = youtube
+	url = git@github.com:dsl400/skill-youtube.git
+	branch = main
