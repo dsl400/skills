@@ -22,3 +22,7 @@
 	path = youtube
 	url = git@github.com:dsl400/skill-youtube.git
 	branch = main
+[submodule "rocket-launcher"]
+	path = rocket-launcher
+	url = git@github.com:dsl400/skill-rocket-launcher.git
+	branch = main
