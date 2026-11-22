@@ -7,6 +7,7 @@ submodule follows the `main` branch of its repository (`branch = main` in
 | Submodule | Skill folder |
 |---|---|
 | [brand](https://github.com/dsl400/brand) | `brand/skills/brand-builder`, `brand/skills/brand-check` |
+| [cli-tools](https://github.com/dsl400/skill-cli-tools) | `cli-tools/skills/cli-tools` |
 | [lnl](https://github.com/dsl400/lnl) | `lnl/skills/lnl` |
 | [recall](https://github.com/dsl400/recall-skill) | `recall/skills/recall` |
 | [rocket-launcher](https://github.com/dsl400/skill-rocket-launcher) | `rocket-launcher/skills/rocket-launcher` |
@@ -25,5 +26,5 @@ git -C skills submodule foreach git checkout main
 
 ```sh
 git submodule update --remote --merge
-git add brand lnl recall rocket-launcher spec-writer write-md youtube && git commit -m "Update the submodules"
+git add brand cli-tools lnl recall rocket-launcher spec-writer write-md youtube && git commit -m "Update the submodules"
 ```

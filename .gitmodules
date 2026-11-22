@@ -26,3 +26,7 @@
 	path = rocket-launcher
 	url = git@github.com:dsl400/skill-rocket-launcher.git
 	branch = main
+[submodule "cli-tools"]
+	path = cli-tools
+	url = git@github.com:dsl400/skill-cli-tools.git
+	branch = main
