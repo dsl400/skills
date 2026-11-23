@@ -30,3 +30,7 @@
 	path = cli-tools
 	url = git@github.com:dsl400/skill-cli-tools.git
 	branch = main
+[submodule "planner"]
+	path = planner
+	url = git@github.com:dsl400/skill-planner.git
+	branch = main
