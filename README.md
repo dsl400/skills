@@ -9,7 +9,7 @@ submodule follows the `main` branch of its repository (`branch = main` in
 | [brand](https://github.com/dsl400/brand) | `brand/skills/brand-builder`, `brand/skills/brand-check` |
 | [cli-tools](https://github.com/dsl400/skill-cli-tools) | `cli-tools/skills/cli-tools` |
 | [lnl](https://github.com/dsl400/lnl) | `lnl/skills/lnl` |
-| [planner](https://github.com/dsl400/skill-planner) | — |
+| [planner](https://github.com/dsl400/skill-planner) | `planner/skills/planner` |
 | [recall](https://github.com/dsl400/recall-skill) | `recall/skills/recall` |
 | [rocket-launcher](https://github.com/dsl400/skill-rocket-launcher) | `rocket-launcher/skills/rocket-launcher` |
 | [spec-writer](https://github.com/dsl400/spec-writer) | `spec-writer/skills/spec-writer` |
